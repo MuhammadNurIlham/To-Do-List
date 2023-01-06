@@ -9,7 +9,7 @@ function NewActivity() {
     return (
         <div>
             {/* Navbar */}
-            <NavbarTodoList />
+            <NavbarTodoList data-cy="dashboard-empty-state" />
 
 
             {/* Section */}

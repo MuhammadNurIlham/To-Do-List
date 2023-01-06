@@ -1,5 +1,6 @@
 import React from 'react'
 import ActivityAddButton from '../utils/ActivityAddButton'
+import CardTodo from '../utils/CardTodo'
 import NavbarTodoList from '../utils/NavbarTodoList'
 import TitleActivityTodo from '../utils/TitleActivityTodo'
 
@@ -7,7 +8,7 @@ function DashboardActivity() {
     return (
         <div>
             {/* Navbar */}
-            <NavbarTodoList />
+            <NavbarTodoList data-cy="dashboard-new-item" />
 
 
             {/* Section */}
@@ -23,6 +24,7 @@ function DashboardActivity() {
                     </div>
 
                 </div>
+                <CardTodo />
             </div>
         </div>
     )

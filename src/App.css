@@ -42,4 +42,18 @@
 }
 
 
-/* Card Section */
+/* Card Todo */
+.card {
+  border: none !important;
+  background: #FFFFFF !important;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 12px !important;
+}
+
+.card-footer {
+  background: #FFFFFF !important;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 12px !important;
+  display: flex;
+  justify-content: space-between !important;
+}
