@@ -17,7 +17,7 @@ function NewActivity() {
                 <div className='row justify-content-between'>
 
                     <div className='col-md-9'>
-                        <TitleActivityTodo className="todo-title" activityTitle="New Activity" />
+                        <TitleActivityTodo className="todo-title" todoTitle="New Activity" />
                     </div>
 
                     <div className='col-md-3'>

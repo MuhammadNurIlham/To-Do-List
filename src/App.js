@@ -8,10 +8,10 @@ import ListItem from './components/ListItem';
 function App() {
   return (
     <div className="App">
-      <EmptyStateDashboard />
+      {/* <EmptyStateDashboard /> */}
       <DashboardActivity />
-      <NewActivity />
-      <ListItem />
+      {/* <NewActivity /> */}
+      {/* <ListItem /> */}
     </div>
   );
 }

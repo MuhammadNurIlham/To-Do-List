@@ -16,7 +16,7 @@ function EmptyStateDashboard() {
                 <div className='row justify-content-between'>
 
                     <div className='col-md-9'>
-                        <TitleActivityTodo className="activity-title" activityTitle="Activity" data-cy="activity-title"/>
+                        <TitleActivityTodo className="activity-title" activityTitle="Activity" data-cy="activity-title" />
                     </div>
 
                     <div className='col-md-3'>
